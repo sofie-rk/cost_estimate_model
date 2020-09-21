@@ -1,3 +1,7 @@
-Equipment: Compressor 240 kW 940232 dollars.
-Equipment: Reactor 50 m3 693227 dollars.
-Equipment: Reactor 10000 m3 0 dollars.
+
+Compressor 240 kW 0 dollars.
+Reactor 50 m3 0 dollars.
+Reactor 10000 m3 0 dollars.
+Compressor 240 kW 940232 dollars.
+Reactor 50 m3 693227 dollars.
+Reactor 10000 m3 0 dollars.

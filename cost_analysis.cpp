@@ -31,6 +31,7 @@ Equipment::Equipment(std::string name, double size, std::string unit) : name{nam
                 a = reada;
                 b = readb;
                 n = readn;
+                successCalc = true;
             }
 
             else {
