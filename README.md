@@ -7,7 +7,7 @@ Each equipment is a object. The object is initialized by a name, size and size u
 Cost model data is provided in the file cost_table.txt. This file contains parameters for the cost model, taking from "Chemical Engineering Design" by Sinnott and Towler.
 
 The cost model used is: 
-<img src="https://render.githubusercontent.com/render/math?math=C = a + bS^n">, where C is the cost, S is the size parameter and a, b, n are cost parameters for the given equipment.
+<img src="https://render.githubusercontent.com/render/math?math=C = a %2B bS^n">, where C is the cost, S is the size parameter and a, b, n are cost parameters for the given equipment.
 
 Each equipment object contains: name, size, a, b, n, cost, successCalc.
 
