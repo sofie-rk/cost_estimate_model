@@ -21,7 +21,9 @@ class Equipment {
     std::string getUnit() const {return unit;}
     int geta() const {return a;}
     int getb() const {return b;}
-    double getn() const {return n;}    
+    double getn() const {return n;} 
+
+    void addEquipmentResult();   
 
 };
 

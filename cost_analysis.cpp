@@ -50,8 +50,22 @@ Equipment::Equipment(std::string name, double size, std::string unit) : name{nam
 
     }
 
-    
-    
+    addEquipmentResult();
+
+}
+
+
+void Equipment::addEquipmentResult() {
+
+    std::ofstream resultData;
+
+    resultData.open("results.txt", std::ios_base::app);
+
+    if (!resultData){
+		std::cout << "Can't open file: results.txt \n"; 
+	}
+
+    resultData << name << " " << size << " " << unit << " " << cost << " dollars.\n";
 }
 
 std::ostream& operator<<(std::ostream& os, const Equipment& eq) {

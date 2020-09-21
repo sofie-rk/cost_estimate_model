@@ -22,9 +22,13 @@ Write the result to a text-file instead of console.
 
 Make one overloaded console-log opertor with only the important information and one overloaded console-log opeartor which shows the entire calculation.
 
+Error handling.
+
 Estimate installed cost.
 
 Cost escalation.
 
 Make process plant object, containing all of the equipment objects.
+
+
 
