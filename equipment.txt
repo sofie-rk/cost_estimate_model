@@ -1,0 +1,3 @@
+Compressor 240 kW
+Reactor 50 m3
+Reactor 10000 m3
